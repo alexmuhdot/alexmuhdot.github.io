@@ -4,4 +4,4 @@ Although (probably) rare... Every now and then, I may upload something that I, a
 
 Needful things:
 
-1) Termux setup script. (Command is: "source <(curl -s https://github.com/alexmuhdot/alexmuhdot.github.io/raw/main/termuxsetup.sh)" // WITHOUT SPEECH MARKS
+1) Termux setup script. (Command is: "source <(curl -s https://raw.githubusercontent.com/alexmuhdot/alexmuhdot.github.io/main/termuxsetup.sh)" // WITHOUT SPEECH MARKS
