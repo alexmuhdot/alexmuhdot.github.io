@@ -26,6 +26,9 @@ echo "alias pct='pc curl ifconfig.me'" >> ../usr/etc/bash.bashrc
 
 echo "alias ipt='curl ifconfig.me'" >> ../usr/etc/bash.bashrc
 
+echo "alias nmapvx='nmap -sC -sV -Pn -p- --script vulners -vv'" >> ../usr/etc/bash.bashrc
+
+
 sed -i '18 s/./#&/' ../usr/etc/proxychains.conf
 
 sed -i '10 s/.//' ../usr/etc/proxychains.conf
