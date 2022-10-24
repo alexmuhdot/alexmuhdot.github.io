@@ -29,3 +29,5 @@ echo "alias ipt='curl ifconfig.me'" >> ../usr/etc/bash.bashrc
 sed -i '18 s/./#&/' ../usr/etc/proxychains.conf
 
 sed -i '10 s/.//' ../usr/etc/proxychains.conf
+
+exit
