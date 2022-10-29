@@ -30,9 +30,6 @@ echo "alias ipt='curl ifconfig.me'" >> ../usr/etc/bash.bashrc
 
 echo "alias nmapvx='nmap -sC -sV -Pn -p- --script vulners -vv'" >> ../usr/etc/bash.bashrc
 
-mkdir wordlists
-git clone https://github.com/danielmiessler/SecLists.git wordlists
-
 sed -i '18 s/./#&/' ../usr/etc/proxychains.conf
 
 sed -i '10 s/.//' ../usr/etc/proxychains.conf
