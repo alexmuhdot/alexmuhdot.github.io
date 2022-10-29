@@ -11,6 +11,7 @@ pkg install nmap -y
 pkg install perl -y
 pkg install ruby -y
 pkg install openssh -y
+pkg install dirb -y
 
 
 pkg install python -y
