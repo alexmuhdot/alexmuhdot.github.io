@@ -10,6 +10,8 @@ pkg install git -y
 pkg install nmap -y
 pkg install perl -y
 pkg install ruby -y
+pkg install openssh -y
+
 
 pkg install python -y
 pip3 install --upgrade pip 
@@ -28,6 +30,8 @@ echo "alias ipt='curl ifconfig.me'" >> ../usr/etc/bash.bashrc
 
 echo "alias nmapvx='nmap -sC -sV -Pn -p- --script vulners -vv'" >> ../usr/etc/bash.bashrc
 
+mkdir wordlists
+git clone https://github.com/danielmiessler/SecLists.git wordlists
 
 sed -i '18 s/./#&/' ../usr/etc/proxychains.conf
 
