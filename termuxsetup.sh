@@ -12,6 +12,8 @@ pkg install perl -y
 pkg install ruby -y
 pkg install openssh -y
 pkg install dirb -y
+pkg install tmux -y
+pkg install wget -y
 
 
 pkg install python -y
@@ -28,6 +30,8 @@ echo "alias pc='proxychains4 -q'" >> ../usr/etc/bash.bashrc
 echo "alias pct='pc curl ifconfig.me'" >> ../usr/etc/bash.bashrc
 
 echo "alias ipt='curl ifconfig.me'" >> ../usr/etc/bash.bashrc
+
+echo "alias tmuxtor='tmux tor'" >> ../usr/etc/bash.bashrc
 
 echo "alias nmapvx='nmap -sC -sV -Pn -p- --script vulners -vv'" >> ../usr/etc/bash.bashrc
 
