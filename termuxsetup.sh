@@ -14,7 +14,7 @@ pkg install openssh -y
 pkg install dirb -y
 pkg install tmux -y
 pkg install wget -y
-
+pkg install golang -y
 
 pkg install python -y
 pip3 install --upgrade pip 
