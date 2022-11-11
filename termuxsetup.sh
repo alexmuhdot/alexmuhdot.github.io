@@ -14,9 +14,7 @@ pkg install openssh -y
 pkg install dirb -y
 pkg install tmux -y
 pkg install wget -y
-
-git glone https://github.com/revoxhere/duino-coin.git
-
+pkg install build-essential -y 
 
 pkg install python -y
 pip3 install --upgrade pip 
@@ -40,5 +38,13 @@ echo "alias nmapvx='nmap -sC -sV -Pn -p- --script vulners -vv'" >> ../usr/etc/ba
 sed -i '18 s/./#&/' ../usr/etc/proxychains.conf
 
 sed -i '10 s/.//' ../usr/etc/proxychains.conf
+
+mkdir Crypto
+
+git glone https://github.com/revoxhere/duino-coin.git Crypto/duino-coin
+
+git clone https://github.com/xmrig/xmrig.git Crypto/xmrig
+
+
 
 exit
