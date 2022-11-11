@@ -15,6 +15,7 @@ pkg install dirb -y
 pkg install tmux -y
 pkg install wget -y
 
+git glone https://github.com/revoxhere/duino-coin.git
 
 
 pkg install python -y
