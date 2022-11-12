@@ -41,7 +41,7 @@ sed -i '10 s/.//' ../usr/etc/proxychains.conf
 
 mkdir Crypto
 
-git glone https://github.com/revoxhere/duino-coin.git Crypto/duino-coin
+git clone https://github.com/revoxhere/duino-coin.git Crypto/duino-coin
 
 git clone https://github.com/xmrig/xmrig.git Crypto/xmrig
 
